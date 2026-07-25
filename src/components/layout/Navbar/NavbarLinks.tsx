@@ -7,8 +7,6 @@ export const NavbarLinks = () => {
         <a
           key={link.label}
           href={link.href}
-          target={link.external ? "_blank" : undefined}
-          rel={link.external ? "noopener noreferrer" : undefined}
           className="text-sm font-medium text-zinc-300 transition hover:text-sky-400"
         >
           {link.label}

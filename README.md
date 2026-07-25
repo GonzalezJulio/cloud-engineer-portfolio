@@ -14,7 +14,7 @@ Built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**, following 
 
 ## 📸 Preview
 
-![Portfolio Preview](./src/assets/images/portfolio.png)
+![Portfolio Preview](./src/assets/images/porfolio.png)
 
 ---
 

@@ -1,76 +1,191 @@
-# React + TypeScript + Vite
+# ☁️ Cloud Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio showcasing real-world Cloud Engineering and DevOps projects, certifications, and technical skills.
 
-Currently, two official plugins are available:
+Built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**, following modern frontend development practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> 🚀 Coming Soon
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📸 Preview
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![Portfolio Preview](./src/assets/images/portfolio.png)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ✨ Features
 
+- Modern and responsive design
+- Professional Cloud Engineer portfolio
+- Project showcase with GitHub repositories
+- Education & certifications section
+- Downloadable resume
+- Smooth navigation
+- Mobile-friendly interface
+- Clean component architecture
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+
+### Cloud & DevOps
+
+- AWS
+- Docker
+- Kubernetes
+- Terraform
+- GitHub Actions
+- ArgoCD
+- Prometheus
+- Grafana
+- Linux
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── layout/
+│   ├── common/
+│   └── ui/
+├── constants/
+├── layouts/
+├── pages/
+├── sections/
+│   ├── Hero/
+│   ├── About/
+│   ├── Projects/
+│   ├── Education/
+│   ├── CTA/
+│   └── Footer/
+├── types/
+└── utils/
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Projects
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+This portfolio includes several real-world DevOps and Cloud Engineering projects, including:
 
+- WorldOps 2026 – Cloud Native Voting Platform
+- Cloud Native Observability Platform
+- Cloud Native DevOps Platform
+- Automated CI/CD Pipeline
+- DevOps Python App Deployment
+
+Each project includes:
+
+- Architecture overview
+- Technologies used
+- GitHub repository
+- Real implementation
+
+---
+
+## 🎓 Education
+
+- 🎓 DevOps Engineering Diploma
+  - Universidad Nacional de Córdoba & MundosE
+
+- 🎓 Full Stack Web Development Career
+  - CoderHouse
+
+- 🎓 Universidad Python – From Zero to Expert
+  - Udemy (In Progress)
+
+---
+
+## 📄 Resume
+
+The latest version of my resume can be downloaded directly from the portfolio.
+
+---
+
+## 📬 Contact
+
+**Julio González**
+
+Cloud Engineer
+
+📍 Córdoba, Argentina
+
+📧 gonzalezjuliodev@gmail.com
+
+GitHub
+
+https://github.com/GonzalezJulio
+
+LinkedIn
+
+https://linkedin.com/in/julioggonzalezz
+
+---
+
+## ⚙️ Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/GonzalezJulio/cloud-engineer-portfolio.git
 ```
-# cloud-engineer-portfolio
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📌 Future Improvements
+
+- Dark / Light mode
+- Blog section
+- English / Spanish switch
+- Project filtering
+- Interactive certifications
+- Animated timeline
+
+---
+
+## ⭐ If you like this project
+
+Feel free to leave a ⭐ on the repository.
+
+---
+
+Made with ❤️ by Julio González

@@ -16,9 +16,9 @@ export function ProjectCard() {
             />
           </div>
 
-          <h3 className="mt-5 text-xl font-semibold">
+          <a className="mt-5 text-xl font-semibold" href={project.github} target="_blank" rel="noopener noreferrer">
             {project.title}
-          </h3>
+          </a>
 
           <p className="mt-3 flex-1 text-sm leading-6 text-zinc-600">
             {project.description}

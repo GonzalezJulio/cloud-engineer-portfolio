@@ -19,6 +19,10 @@ export const about = {
                            description: "Container Orchestration",
                   },
                   {
+                           name: "ArgoCD",
+                           description: "GitOps Continuous Delivery"
+                  },
+                  {
                            name: "Terraform",
                            description: "Infrastructure as Code"
                   },

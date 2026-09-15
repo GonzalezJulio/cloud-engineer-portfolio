@@ -3,7 +3,7 @@ export const personal = {
 
   greeting: "Hi, I'm",
 
-  role: "Cloud Engineer",
+  role: "Jr Cloud Engineer",
 
   tagline:
     "Building reliable cloud infrastructure with AWS, Kubernetes and DevOps practices.",

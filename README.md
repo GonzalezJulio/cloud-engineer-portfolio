@@ -1,33 +1,36 @@
-# ☁️ Cloud Engineer Portfolio
+# ☁️ Cloud & DevOps Engineer Portfolio
 
-My personal portfolio showcasing real-world Cloud Engineering and DevOps projects, certifications, and technical skills.
+Personal portfolio showcasing hands-on Cloud Engineering and DevOps projects, technical skills, education, and independent services.
 
-Built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**, following modern frontend development practices.
+Built with **React 19, TypeScript, Vite, and Tailwind CSS**, following modern frontend development practices and a component-based architecture.
+
+🌐 **Portfolio:** [juliogonzalez.dev](https://juliogonzalez.dev)
 
 ---
 
 ## 🌐 Live Demo
 
-> 🚀 Coming Soon
-
----
+Visit the live portfolio: **[https://juliogonzalez.dev](https://juliogonzalez.dev)**
 
 ## 📸 Preview
 
-![Portfolio Preview](./src/assets/images/porfolio.png)
+![Cloud Engineer Portfolio Preview](./src/assets/images/porfolio.png)
 
 ---
 
 ## ✨ Features
 
-- Modern and responsive design
-- Professional Cloud Engineer portfolio
-- Project showcase with GitHub repositories
-- Education & certifications section
+- Modern, responsive portfolio design
+- Professional introduction and technical profile
+- Cloud and DevOps project showcase
+- GitHub repository links
+- Education and training section
 - Downloadable resume
-- Smooth navigation
-- Mobile-friendly interface
-- Clean component architecture
+- Independent Cloud & DevOps services section
+- Direct contact via email
+- Smooth section navigation
+- Reusable React components
+- Mobile-friendly layout
 
 ---
 
@@ -39,18 +42,23 @@ Built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**, following 
 - TypeScript
 - Vite
 - Tailwind CSS
+- Lucide React
 
 ### Cloud & DevOps
 
-- AWS
-- Docker
-- Kubernetes
-- Terraform
-- GitHub Actions
-- ArgoCD
-- Prometheus
-- Grafana
-- Linux
+- **Cloud:** AWS (EC2, VPC, S3, IAM)
+- **Containers:** Docker, Docker Compose
+- **Orchestration:** Kubernetes, K3s
+- **Infrastructure as Code:** Terraform
+- **Configuration Management:** Ansible
+- **CI/CD:** GitHub Actions
+- **GitOps:** Argo CD
+- **Monitoring:** Prometheus, Grafana
+- **Operating Systems:** Linux
+- **Scripting:** Bash, Python
+- **Networking:** HTTP/HTTPS, ports, connectivity, and deployment fundamentals
+
+Technologies are explored through hands-on projects, personal labs, and continuous learning.
 
 ---
 
@@ -59,6 +67,7 @@ Built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**, following 
 ```text
 src/
 ├── assets/
+│   └── images/
 ├── components/
 │   ├── layout/
 │   ├── common/
@@ -70,6 +79,7 @@ src/
 │   ├── Hero/
 │   ├── About/
 │   ├── Projects/
+│   ├── Services/
 │   ├── Education/
 │   ├── CTA/
 │   └── Footer/
@@ -79,91 +89,146 @@ src/
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Projects
 
-This portfolio includes several real-world DevOps and Cloud Engineering projects, including:
+The portfolio showcases hands-on projects focused on Cloud Engineering, infrastructure automation, containerization, deployment, and observability.
 
-- WorldOps 2026 – Cloud Native Voting Platform
-- Cloud Native Observability Platform
-- Cloud Native DevOps Platform
-- Automated CI/CD Pipeline
-- DevOps Python App Deployment
+### 🌍 WorldOps 2026 — Cloud-Native Voting Platform
 
-Each project includes:
+A cloud-native application project combining application deployment, containerization, and infrastructure tooling.
 
-- Architecture overview
-- Technologies used
-- GitHub repository
-- Real implementation
+**Technologies:** AWS, Docker, Kubernetes (K3s), Argo CD, GitHub Actions, Redis, PostgreSQL, Traefik.
+
+### 📊 Cloud-Native Observability Platform
+
+A project focused on application monitoring, metrics collection, and observability using open-source tools.
+
+**Technologies:** Prometheus, Grafana, Docker, Python.
+
+### ⚙️ Cloud-Native DevOps Platform
+
+A practical project exploring containerized services, health checks, application metrics, and deployment workflows.
+
+**Technologies:** Python, Flask, Docker, PostgreSQL, Prometheus.
+
+### 🔄 Automated CI/CD Pipeline
+
+A project demonstrating automated build and validation workflows, container image creation, and delivery automation.
+
+**Technologies:** GitHub Actions, Docker, Linux.
+
+### 🐍 DevOps Python Application Deployment
+
+A practical project focused on deploying a Python application using containerization and automation tools.
+
+**Technologies:** Python, Docker, CI/CD.
+
+Explore the repositories on [GitHub](https://github.com/GonzalezJulio).
+
+> Projects in this portfolio are personal implementations and hands-on labs, rather than commercial client engagements.
 
 ---
 
-## 🎓 Education
+## 🧰 Cloud & DevOps Services
 
-- 🎓 DevOps Engineering Diploma
-  - Universidad Nacional de Córdoba & MundosE
+I offer practical, project-based assistance for developers, entrepreneurs, and small teams that need help deploying applications and automating workflows.
 
-- 🎓 Full Stack Web Development Career
-  - CoderHouse
+### 🐳 Dockerization
 
-- 🎓 Universidad Python – From Zero to Expert
-  - Udemy (In Progress)
+- Dockerfile configuration
+- Docker Compose setup
+- Environment variable configuration
+
+### ☁️ VPS / AWS Deployment
+
+- Linux server setup
+- Application deployment
+- Basic HTTPS and networking configuration
+
+### 🔁 CI/CD Automation
+
+- GitHub Actions workflow configuration
+- Automated build and validation
+- Deployment workflow setup
+
+Each engagement is evaluated according to its scope, requirements, and infrastructure. Cloud resources, hosting, domains, and other third-party services are billed separately.
+
+For inquiries, visit [juliogonzalez.dev](https://juliogonzalez.dev) or contact me by email at **gonzalezjuliodev@gmail.com**.
+
+---
+
+## 🎓 Education & Training
+
+- **DevOps Engineering Diploma** — MundosE
+- **Full Stack Web Development Career** — Coderhouse
+- **Python: From Zero to Expert** — Udemy
+- **PCEP — Certified Entry-Level Python Programmer** — Python Institute
+
+### Current Learning Focus
+
+- Preparing for the **Certified Kubernetes Administrator (CKA)** certification
+- Kubernetes administration and troubleshooting
+- AWS infrastructure and cloud operations
+- Infrastructure as Code and deployment automation
+- Continuous hands-on practice through personal labs
 
 ---
 
 ## 📄 Resume
 
-The latest version of my resume can be downloaded directly from the portfolio.
+My resume is available for download directly from the portfolio.
 
 ---
 
 ## 📬 Contact
 
-**Julio González**
-
-Cloud Engineer
-
+**Julio González**  
+Cloud & DevOps Engineer  
 📍 Córdoba, Argentina
 
-📧 gonzalezjuliodev@gmail.com
+- **Portfolio:** [juliogonzalez.dev](https://juliogonzalez.dev)
+- **Email:** [gonzalezjuliodev@gmail.com](mailto:gonzalezjuliodev@gmail.com)
+- **GitHub:** [github.com/GonzalezJulio](https://github.com/GonzalezJulio)
+- **LinkedIn:** [linkedin.com/in/julioggonzalezz](https://linkedin.com/in/julioggonzalezz)
 
-GitHub
-
-https://github.com/GonzalezJulio
-
-LinkedIn
-
-https://linkedin.com/in/julioggonzalezz
+Open to junior Cloud, DevOps, infrastructure, and Linux operations opportunities, as well as selected freelance projects.
 
 ---
 
 ## ⚙️ Getting Started
 
-Clone the repository
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/GonzalezJulio/cloud-engineer-portfolio.git
+cd cloud-engineer-portfolio
 ```
 
-Install dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-Run locally
+### 3. Start the development server
 
 ```bash
 npm run dev
 ```
 
-Build for production
+### 4. Build for production
 
 ```bash
 npm run build
 ```
 
-Preview production build
+### 5. Preview the production build
 
 ```bash
 npm run preview
@@ -173,19 +238,19 @@ npm run preview
 
 ## 📌 Future Improvements
 
-- Dark / Light mode
-- Blog section
-- English / Spanish switch
-- Project filtering
-- Interactive certifications
-- Animated timeline
+- Dark and light mode
+- Technical blog and project write-ups
+- English / Spanish language switch
+- Project filtering by technology
+- Interactive certifications section
+- Animated career and learning timeline
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Feel free to leave a ⭐ on the repository.
+If you find this project useful or interesting, feel free to leave a ⭐ on the repository.
 
 ---
 
-Made with ❤️ by Julio González
+**Made with ❤️ by Julio González**

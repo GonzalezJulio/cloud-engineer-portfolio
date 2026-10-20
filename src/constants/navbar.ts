@@ -7,6 +7,10 @@ export const navbar = {
 
   links: [
     {
+      label: "Services",
+      href: "#services",
+    },
+    {
       label: "About",
       href: "#about",
     },

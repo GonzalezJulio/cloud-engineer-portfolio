@@ -6,10 +6,7 @@ export const navbar = {
   },
 
   links: [
-    {
-      label: "Services",
-      href: "#services",
-    },
+   
     {
       label: "About",
       href: "#about",
@@ -22,6 +19,10 @@ export const navbar = {
       label: "Education",
       href: "#education",
     },
+     {
+      label: "Services",
+      href: "#services",
+    }
   ],
 
   resume: {

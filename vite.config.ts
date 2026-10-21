@@ -13,6 +13,12 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
+      "next/navigation": fileURLToPath(
+        new URL("./src/stubs/next-navigation.ts", import.meta.url)
+      ),
+      "next/navigation.js": fileURLToPath(
+        new URL("./src/stubs/next-navigation.ts", import.meta.url)
+      ),
     },
   },
 });

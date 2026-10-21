@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { Analytics } from "@vercel/analytics/next"
+
 
 type MainLayoutProps = {
   children: ReactNode;

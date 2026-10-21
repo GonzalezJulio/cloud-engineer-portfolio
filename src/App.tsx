@@ -9,8 +9,9 @@ function                                        App() {
     
       <MainLayout>
         <HomePage />
+        <Analytics />
       </MainLayout>
-      <Analytics />
+      
   );
 }
 

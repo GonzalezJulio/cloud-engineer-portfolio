@@ -1,4 +1,4 @@
-import { ArrowUpRight, Box, GitBranch, Server } from "lucide-react";
+import { Box, GitBranch, Server } from "lucide-react";
 
 const services = [
   {
@@ -6,13 +6,12 @@ const services = [
     icon: Box,
     title: "Dockerization",
     description:
-      "Package your application into Docker containers for a more consistent and portable deployment environment.",
+      "Package your application into Docker containers for a consistent and portable deployment environment.",
     features: [
       "Dockerfile configuration",
       "Docker Compose setup",
       "Environment variables configuration",
     ],
-    price: "US$50–100",
   },
   {
     id: 2,
@@ -25,7 +24,6 @@ const services = [
       "Application deployment",
       "Basic HTTPS and networking configuration",
     ],
-    price: "US$100–180",
   },
   {
     id: 3,
@@ -38,7 +36,6 @@ const services = [
       "Automated build and validation",
       "Deployment workflow configuration",
     ],
-    price: "US$150–300",
   },
 ];
 
@@ -53,7 +50,7 @@ export function ServicioSection() {
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto mb-14 max-w-3xl text-center">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-sky-600">
-            DevOps Services
+            Cloud & DevOps Services
           </p>
 
           <h2 className="text-3xl font-bold text-slate-800 md:text-4xl">
@@ -61,8 +58,9 @@ export function ServicioSection() {
           </h2>
 
           <p className="mt-5 text-base leading-7 text-slate-600 md:text-lg">
-            Practical deployment and automation solutions to help you run
-            your applications with a more reliable and repeatable workflow.
+            Practical deployment and automation services tailored to your
+            application's requirements, with a focus on clear configuration
+            and maintainable solutions.
           </p>
         </div>
 
@@ -81,10 +79,10 @@ export function ServicioSection() {
             return (
               <article
                 key={service.id}
-                className="group flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-sky-500 hover:shadow-xl hover:shadow-sky-500/10"
+                className="group flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-lg"
               >
-                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-sky-100 text-sky-700 transition-colors group-hover:bg-sky-600 group-hover:text-white">
-                  <Icon size={24} strokeWidth={1.8} />
+                <div className="mb-6 flex h-11 w-11 items-center justify-center rounded-xl bg-sky-50 text-sky-700">
+                  <Icon size={21} strokeWidth={1.8} />
                 </div>
 
                 <h3 className="text-xl font-semibold text-slate-800">
@@ -107,36 +105,24 @@ export function ServicioSection() {
                   ))}
                 </ul>
 
-                <div className="mt-7 border-t border-slate-100 pt-5">
-                  <p className="text-xs font-medium uppercase tracking-wider text-slate-500">
-                    Indicative price
-                  </p>
-
-                  <p className="mt-1 text-2xl font-bold text-slate-800">
-                    {service.price}
-                  </p>
-
-                  <p className="mt-2 text-xs leading-5 text-slate-500">
-                    Final pricing depends on project scope and requirements.
-                  </p>
+                <div className="mt-auto pt-7">
+                  <a
+                    href={`mailto:${contactEmail}?subject=${subject}&body=${body}`}
+                    className="inline-flex items-center justify-center rounded-lg bg-sky-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-sky-700"
+                  >
+                    Discuss your project
+                  </a>
                 </div>
-
-                <a
-                  href={`mailto:${contactEmail}?subject=${subject}&body=${body}`}
-                  className="mt-6 inline-flex items-center justify-center gap-2 rounded-lg bg-sky-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-sky-700"
-                >
-                  Discuss your project
-                  <ArrowUpRight size={16} />
-                </a>
               </article>
             );
           })}
         </div>
 
         <p className="mx-auto mt-8 max-w-3xl text-center text-xs leading-5 text-slate-500">
-          Prices are estimates in USD. Cloud infrastructure, domains,
-          hosting and other third-party services are billed separately.
-          Every project is reviewed before a final quote is provided.
+          Each project is evaluated individually. Scope, deliverables,
+          timeline and pricing are agreed upon before work begins.
+          Infrastructure, hosting, domains and third-party services
+          are billed separately.
         </p>
       </div>
     </section>

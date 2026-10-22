@@ -1,7 +1,7 @@
 export const about = {
          title: "About Me",   
          
-         description1: "Junior Cloud & DevOps Engineer with a strong focus on AWS and Kubernetes. Passionate about infrastructure automation, scalable cloud architectures, and building reliable platforms through DevOps best practices.",
+         description1: "Cloud & DevOps Engineer with a strong focus on AWS and Kubernetes. Passionate about infrastructure automation, scalable cloud architectures, and building reliable platforms through DevOps best practices.",
 
          description2: "Currently preparing the CKA (Certified Kubernetes Administrator) certification and building hands-on projects — from multi-service architectures on Kubernetes to GitOps pipelines with ArgoCD — as I work toward my first professional opportunity in Cloud/DevOps.",  
          
